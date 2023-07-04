@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap');
+
+body {
+    background: #fff;
+    font-family: "Poppins", Sans-serif;
+}
+
+.navbar-toggler {
+    background: #0c5991 !important;
+}
+
+.logotop {
+    width: 200px;
+
+}
+
+#top-bottom {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 50%;
+    width: 41px;
+    height: 40px;
+    padding: 6px;
+    z-index: 999999
+}
+
+p {
+    padding: 0;
+    margin: 0 0 30px 0;
+    font-family: "Poppins", Sans-serif;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 54px;
+    color: #000;
+    margin: 0 0 70px;
+}
+
+.section-heading .container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+  /*--------------------------------------------------------------
+  /* banner class */
+.banner-left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+}
+.banner-left>* {
+    margin: 0.5rem;
+    animation: right_to_left 3s ease;
+    text-align: left;
+}
+.banner-header {
+    text-transform: capitalize;
+    font-size: 23px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.banner-right {
+      flex: 2;
+      display: inline;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 100px 0;
+      animation: left_to_right 3s ease;
+      /* border: 1px solid white; */
+}
+
+  /* Desktop Navigation */
+.logo {
+    width: 145px !important;
+}
+.navigation.navbar {
+    float: right;
+    padding-top: 14px !important;
+    padding: 0;
+}
+#nav {
+    font-family: "Poppins", Sans-serif;
+    color: #231f20;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 10px 15px !important;
+    transition: none;
+    text-decoration: none;
+}
+#nav:hover {
+    color: #ff9327;
+    transition: none;
+    background: #fff;
+    visibility: visible;
+}
+.nav-link:active {
+    color: #ff9327;
+    background: #fff;
+    visibility: visible;
+    transition: none;
+}
+button:hover {
+    border-color: none;
+}
+.navbar-expand-md .navbar-nav {
+    padding-right: 10px;
+}
+.navbar-brand img {
+    width: 100%;
+    max-width: 170px;
+}
+.header {
+    width: 100%;
+    height: 86px;
+    padding: 15px 0px 15px 0px;
+    background: #fff;
+}
+#footer .footer-top .footer-links ul .vvv a:hover {
+    color: #fff;
+}
+.adrs a {
+    text-decoration: none;
+}
+.bt-home a {
+    text-decoration: none;
+    color: #fff;
+}
+.bt-home a:hover {
+    color: #ff9327;
+}
+/* ban */
+.banner{
+    height: 450px;
+    background:url("./../assets/doh3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.art_craft{
+    padding: 30px 0px;
+    text-align: left;
+}
+.heading{
+    margin: 0;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 600;
+    color: #020579;
+    display: inline;
+}
+.art_craft p{
+    font-size: 14px;
+    color: #616161;
+    font-weight: 400;
+    line-height: 25px;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0;
+}
+.art_craft .map img{
+    padding: 20px 60px;
+    width: 100%;
+    /* background: url('./../assets/ODISHA.png');
+    background-size: contain;
+    height: 100%;
+    background-repeat: no-repeat; */
+}
+.summary{
+    padding: 30px 0px;
+    text-align: left;
+}
+.main-heading-domain-border-1 div:first-child {
+    background: #020579;
+    border-radius: 10px;
+    height: 5px;
+    width: 55px;
+    display: inline-block;
+}
+.text-lg-left {
+    text-align: left !important;
+}
+.main-heading-domain-border-1 div:last-child {
+    background: #ff9c16;
+    border-radius: 10px;
+    height: 5px;
+    width: 25px;
+    display: inline-block;
+    margin-left: 3px;
+}
+.summary .summary-text{
+    padding: 20px 0px;
+    margin: 0;
+    font-size: 14px;
+    color: #616161;
+    font-weight: 400;
+    line-height: 24px;
+}
+.summary-points{
+    font-size: 14px;
+    color: #616161;
+    line-height: 24px;
+    font-weight: 400;
+}
+.summary img{
+    padding: 50px 0px;
+    width: 100%;
+}
+.solution{
+    padding: 30px 0px;
+    text-align: left;
+    background: url('./../assets/bg.png');
+}
+.solution img{
+    height: 300px;
+}
+strong{
+    font-weight: 700;
+    color:#000;
+    font-size: 18px;
+}
+.solution p{
+    font-size: 14px;
+    color: #616161;
+    font-weight: 400;
+    line-height: 25px;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0;
+}
+.problems{
+    padding: 30px 0px;
+    text-align: left;
+    background: url('./../assets/bg.png');
+}
+
+.problems p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 0px;
+}
+.lesser_time_boxs {
+    padding: 22px 40px 22px 22px;
+    box-shadow: 0 3px 16px 0 rgba(130, 130, 130, 0.16);
+    background-color: #ff9c16;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+    .lesser_time_boxs {
+        height: auto;
+    }
+    .heading{
+        font-size: 25px;
+    }
+}
+.lesser_time_boxs:hover{
+    background-color: #EC2A13;
+}
+.lesser_time_content {
+    float: left;
+    width: 100%;
+}
+.lesser_time_content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 0px;
+}
+.digitization {
+    padding: 30px 0px;
+    text-align: left;
+    background: url('./../assets/full-bloom.png');
+}
+
+.digitization p{
+    font-size: 14px;
+    color: #616161;
+    font-weight: 400;
+    line-height: 25px;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0;
+}
+.Nft-marketplace{
+    padding: 30px 0px;
+    text-align: center;
+    background: #fff;
+}
+.text-lg-center {
+    text-align: center !important;
+}
+
+.Nft-marketplace p{
+    font-size: 14px;
+        color: #616161;
+        font-weight: 400;
+        line-height: 25px;
+        align-items: center;
+        padding: 20px 0px;
+        margin: 0;
+}
+span{
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.Nft-marketplace p  ul{
+    text-align: left;
+}
+.services{
+    padding: 30px 0px;
+    text-align: left;
+    background: url('./../assets/bg.png');
+}
+.services p {
+    font-size: 14px;
+    color: #616161;
+    font-weight: 400;
+    line-height: 25px;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0;
+}
+.services ul li {
+    font-size: 14px;
+    color: #616161;
+    font-weight: 400;
+    line-height: 25px;
+    align-items: center;
+    padding: 10px 0px;
+    margin: 0;
+}
+.services img {
+    height: 228px;
+    padding: 0px 0px;
+    width: 100%;
+    object-fit: cover;
+}
+.raw-materials{
+    padding: 30px 0px;
+    text-align: center;
+    background: #fff;
+}
+.raw{
+    padding: 22px 40px 22px 22px;
+        box-shadow: 0 3px 16px 0 rgba(130, 130, 130, 0.16);
+        background-color: #0FB26B;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 100%;
+}
+.raw:hover{
+    background-color: #ff9c16;
+}
+.raw_content {
+    float: left;
+    width: 100%;
+}
+.raw_content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 0px;
+}
+/* footer */
+#top-bottom {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 50%;
+    width: 41px;
+    height: 40px;
+    padding: 6px;
+    z-index: 999999;
+    border: none;
+    background-color: #ff9c16;
+}
+
+.footer {
+    padding: 40px 0 40px 0;
+    background: #fff;
+    color: #000000;
+    background-size: cover;
+    position: relative;
+    background: url('./../assets/pattern-footer.png');
+}
+
+.footershort {
+    display: block;
+}
+
+.footer-item ul {
+    padding: 0;
+    list-style: none;
+    margin: 0px 12px 0px;
+    float: left;
+}
+
+.footer-title {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #3e3e3e !important;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+.footer-item ul li .des {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin: 0px 0 15px 0;
+    color: #616161;
+    font-weight: 500;
+}
+.des ul .flex a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #616161;
+}
+.footer-item ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #616161;
+}
+.footer-item ul li a:hover{
+    color: #ff9c16;
+}
+.copyright {
+    padding: 0.3em 0;
+    background: linear-gradient(to left, #f3f2f2, #e2e1e1, #f3f0f0);
+    text-align: center;
+    font-size: 14px;
+}
+.copyright p {
+    margin: 0;
+    color: #908d8d;
+}
+.copyright p a {
+    color: #908d8d;
+}
